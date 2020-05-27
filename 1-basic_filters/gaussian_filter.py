@@ -1,4 +1,5 @@
 import numpy as np
+from img_preprocess import grayscale_avg
 
 def gaussian_filter(img):
     '''

@@ -1,6 +1,6 @@
 import numpy as np
 
-#applies 3x3 horizontal log filter for the input image
+#applies 3x3 log filter for the input image
 def log_filter(img):
     '''
     Detects vertical edges of an image

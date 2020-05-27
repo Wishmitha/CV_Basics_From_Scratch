@@ -25,7 +25,7 @@ def grayscale_avg(img):
 
 # 1. weighted method : get the weighted averages of 3 channels
 
-def grayscale_wighted(img, weight_R, weight_G, weight_B):
+def grayscale_weighted(img, weight_R, weight_G, weight_B):
     '''
     :param img: input image
     :param weight_R: weight for red channel

@@ -1,6 +1,7 @@
 import matplotlib.image as mpimg
 import matplotlib.pyplot as plt
 from img_preprocess import grayscale_avg
+from img_preprocess import grayscale_weighted
 from sobel_filter import sobel_filter_horizontal
 from sobel_filter import  sobel_filter_vertical
 from sobel_filter import sobel_filter
